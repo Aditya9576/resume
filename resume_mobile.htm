@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume</title>
+</head>
+<link rel="stylesheet" href="mobile.css">
+<body >
+	<header id="header">
+		<ul type="none" class="navigation">
+			<a href="#"><li>HOME</li></a>
+			<a href="#"><li>Social Media</li></a>
+			<a href="#"><li>Work Sample</li></a>
+			<a href="#"><li>Demo</li></a>
+		</ul>
+		<div class="drop_down"></div>
+	</header>
+</body >
+<script>
+	document.getElementsByClassName('drop_down')[0].onclick = function(){
+		
+		
+		if( document.getElementById('header').style.height != "auto")
+		{
+			document.getElementById('header').style.height="auto";
+			document.getElementsByClassName('drop_down')[0].style.transform = "rotate(90deg)";
+		}
+		else
+		{
+			document.getElementsByClassName('drop_down')[0].style.transform = "rotate(0deg)";
+			document.getElementById('header').style.height="80px";
+		}
+	}
+</script>
+</html>

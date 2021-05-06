@@ -1,0 +1,28 @@
+#header
+{
+	background-color: DodgerBlue;
+/*	height: 40px; 580*/
+}
+#header > ul
+{
+	display: flex;
+	padding: 10px;
+	font-size: 1.2em;
+	justify-content: space-around;
+	/*align-items: none;*//*sudo_code*/
+	flex-direction: row;
+}
+
+.navigation > a
+{
+	padding: 1%;
+	color:white;
+	border:2px solid black;
+	/*width:auto;*//*sudo_code*/
+	height:auto;
+}
+.navigation > a:hover
+{
+	background-color: black;
+}
+a{text-decoration: none;}

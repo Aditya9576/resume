@@ -1,0 +1,45 @@
+#header
+{
+	/* display: flex;
+	justify-content: center; */
+	background-color: lightgreen;
+	height:8px;
+	overflow: hidden;
+	border-radius: 0px 0px 10px 10px;
+/*	height: 40px; 580*/
+}
+#header > ul
+{
+	display: flex;
+	padding: 10px;
+	flex-direction:column;
+	align-items: center;
+}
+
+.navigation > a
+{
+	padding: 1%;
+	color:white;
+	width:80%;
+	text-align: center;
+	font-size: 2.5em;
+}
+.navigation > a:hover
+{
+	background-color: black;
+}
+a{text-decoration: none;}
+
+.drop_down
+{
+	width:60px;
+	height: 60px;
+	background: linear-gradient(black 0px 10px,transparent 10px 20px,black 20px 30px,transparent 30px 40px,black 40px 50px,transparent 50px 60px);
+	position: absolute;
+	top:3%;
+	left:2.5%;
+}
+.drop_down:hover{
+	transition-duration: 0.5s;
+	transform-origin: center;
+}
